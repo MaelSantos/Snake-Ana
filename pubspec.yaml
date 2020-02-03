@@ -1,0 +1,35 @@
+name: snake_ana
+description: Ana Snake
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flame: any
+
+# flutter:
+#   fonts:
+#     - family: FredokaOne
+#       fonts:
+#         - asset: assets/fonts/FredokaOne.ttf
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.2"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/sprites/cobra-de-ana.png
+    - assets/images/icon.png
+
+flutter_icons:
+ android: "launcher_icon"
+ ios: true
+ image_path: "assets/images/icon.png"
