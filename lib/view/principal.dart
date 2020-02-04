@@ -54,6 +54,13 @@ class _PrincipalState extends State<Principal> {
                       setState(() {
                         snakeAna.cobra.direcao = Direcao.direita;
                       });
+                    }),
+                ButtonCustom(
+                    sourceImage: "assets/images/icons/play.png",
+                    onPressed: () {
+                      setState(() {
+                        snakeAna.cobra.isLoop = !snakeAna.cobra.isLoop;
+                      });
                     })
               ],
             )),
